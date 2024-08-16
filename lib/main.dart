@@ -9,6 +9,7 @@ void main() async{
   runApp(const MyApp());
 }
 
+
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
@@ -17,6 +18,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       title: 'Flutter Demo',
+      color: Colors.white,
       debugShowCheckedModeBanner: false,
       home: ChatScreen(),
     );
